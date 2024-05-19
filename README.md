@@ -3,9 +3,9 @@
 **Project Title**: **AI-Powered FAQ and Release Notes Generation Portal**
 
 **Team Members**:
-1. Mustafa Saifee (Primary AI Developer, Documentation)
-2. Rishika (Lead Developer, API Integration)
-3. Jyoti (Presentation and Coding Support)
+1. Mustafa Saifee (AI Developer, Documentation)
+2. Krishika (Lead Developer, API Integration)
+3. Jyoti (Lead Developer, API Integration)
 
 **Project Overview**:
 Our project aims to develop an automated portal for generating FAQs and release notes using Vertex AI. This system will integrate with existing tools such as Jira and Slack to streamline the documentation process, enhance efficiency, and maintain high-quality content with automated grammar checks.
