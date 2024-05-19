@@ -1,4 +1,6 @@
-### Hackathon Project Proposal: AI-Powered FAQ and Release Notes Generation Portal
+# Hackathon Project Proposal: AI-Powered FAQ and Release Notes Generation Portal
+
+Directly jump to the UI and workflow of this proposal - [UI Proposal: AI-Powered FAQ and Release Notes Generation Portal](/workflow_and_ui.md)
 
 **Project Title**: **AI-Powered FAQ and Release Notes Generation Portal**
 
@@ -73,3 +75,5 @@ This project aims to leverage AI to automate and streamline the documentation pr
 3. Are there any specific formatting requirements for the generated FAQs and release notes?
 
 Feel free to provide additional information or ask further questions to help refine this proposal!
+
+## Next: [UI Proposal: AI-Powered FAQ and Release Notes Generation Portal](/workflow_and_ui.md)
