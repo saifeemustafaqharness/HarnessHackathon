@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAQ and Release Notes Portal</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>AI-Powered FAQ and Release Notes Generation Portal</h1>
+
+      <!-- FAQ Generation Section -->
+      <section class="faq-section">
+        <h2>FAQ Generation</h2>
+        <div class="filter">
+          <label for="date-range">Date Range:</label>
+          <input type="date" id="start-date" />
+          <input type="date" id="end-date" />
+
+          <label for="team-name">Team Name:</label>
+          <select id="team-name">
+            <option value="PL">PL</option>
+            <option value="DEV">DEV</option>
+            <option value="CS">CS</option>
+            <!-- Add more team options as needed -->
+          </select>
+
+          <button id="generate-faq">Generate</button>
+        </div>
+
+        <div id="faq-content">
+          <!-- Generated FAQs will be displayed here -->
+        </div>
+
+        <div class="faq-actions">
+          <button id="re-generate">Re-generate</button>
+          <button id="clear">Clear</button>
+          <button id="pr">Create PR</button>
+        </div>
+      </section>
+
+      <!-- Release Notes Generation Section -->
+      <section class="release-notes-section">
+        <h2>Release Notes Generation</h2>
+        <div class="jira-input">
+          <label for="jira-tickets">Jira Ticket Number(s):</label>
+          <input
+            type="text"
+            id="jira-tickets"
+            placeholder="Enter comma-separated ticket numbers"
+          />
+
+          <div class="field-options">
+            <label>Fields to Include:</label>
+            <div class="field-group">
+              <span>Title:</span>
+              <input
+                type="radio"
+                id="title-yes"
+                name="title"
+                value="yes"
+                checked
+              />
+              <label for="title-yes">Yes</label>
+              <input type="radio" id="title-no" name="title" value="no" />
+              <label for="title-no">No</label>
+            </div>
+            <div class="field-group">
+              <span>Description:</span>
+              <input
+                type="radio"
+                id="description-yes"
+                name="description"
+                value="yes"
+                checked
+              />
+              <label for="description-yes">Yes</label>
+              <input
+                type="radio"
+                id="description-no"
+                name="description"
+                value="no"
+              />
+              <label for="description-no">No</label>
+            </div>
+            <div class="field-group">
+              <span>Public Release Notes Summary:</span>
+              <input
+                type="radio"
+                id="summary-yes"
+                name="summary"
+                value="yes"
+                checked
+              />
+              <label for="summary-yes">Yes</label>
+              <input type="radio" id="summary-no" name="summary" value="no" />
+              <label for="summary-no">No</label>
+            </div>
+            <div class="field-group">
+              <span>CFD:</span>
+              <input type="radio" id="cfd-yes" name="cfd" value="yes" checked />
+              <label for="cfd-yes">Yes</label>
+              <input type="radio" id="cfd-no" name="cfd" value="no" />
+              <label for="cfd-no">No</label>
+            </div>
+            <div class="field-group">
+              <span>Comments:</span>
+              <input
+                type="radio"
+                id="comments-yes"
+                name="comments"
+                value="yes"
+                checked
+              />
+              <label for="comments-yes">Yes</label>
+              <input type="radio" id="comments-no" name="comments" value="no" />
+              <label for="comments-no">No</label>
+            </div>
+          </div>
+
+          <button id="generate-release-notes">Generate</button>
+        </div>
+
+        <div id="release-notes-content">
+          <!-- Generated release notes will be displayed here -->
+        </div>
+      </section>
+    </div>
+
+    //<script src="scripts.js"></script>
+  </body>
+</html>
