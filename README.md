@@ -14,10 +14,10 @@ Our project aims to develop an automated portal for generating FAQs and release 
 
 **Key Features**:
 1. **Automated FAQ Generation**:
-   - FAQs will be generated based on Jira tickets.
    - Vertex AI will analyze Jira tickets to create relevant FAQ entries automatically.
-   - Weekly FAQ answers will be extracted from Slack channels to assist the Customer Success team, Sales team, developers, and the product team.
+   - Weekly FAQ answers will be extracted from Slack channels to assist the Customer Success, Sales, developers, and product teams.
    - This feature will reduce the manual effort involved in FAQ documentation.
+   - FAQs will be generated based on Jira tickets. [OPTIONAL]
 
 2. **Automated Release Notes Generation**:
    - The portal will generate release notes based on predefined triggers and inputs.
@@ -28,8 +28,8 @@ Our project aims to develop an automated portal for generating FAQs and release 
    - Ensures high-quality, error-free documentation.
 
 4. **Integration with Existing Tools**:
-   - The system will integrate with Jira for ticket information.
-   - It will also support integration with Slack for accessing specific channel conversations.
+   - The system will integrate with Jira to gather ticket information.
+   - It will also support integration with Slack to access specific channel conversations.
    - Secure and compliant access to these tools will be managed with the required clearance from the SecOps team.
 
 **Technologies Used**:
@@ -67,11 +67,11 @@ Our project aims to develop an automated portal for generating FAQs and release 
 - **Scalability**: Designing the system to handle increasing volumes of data and user requests.
 
 **Conclusion**:
-This project aims to leverage AI to automate and streamline the documentation process, saving time and reducing errors. By integrating with existing tools like Jira and Slack and utilizing advanced AI capabilities, our portal will significantly enhance productivity and documentation quality. We believe this project not only showcases our technical skills but also addresses a real need within our organization, making it a valuable addition to our workflow.
+This project aims to leverage AI to automate and streamline the documentation process, saving time and reducing errors. Our portal will significantly enhance productivity and documentation quality by integrating with existing tools like Jira and Slack and utilizing advanced AI capabilities. We believe this project showcases our technical skills and addresses a real need within our organization, making it a valuable addition to our workflow.
 
 **Scoping Questions**:
 1. Are there any additional specific permissions or integrations we might need to consider for Jira, Slack, or GitHub?
-2. Are there any specific metrics or KPIs that stakeholders expect us to track for the FAQ and release notes generation?
+2. Do stakeholders expect us to track any specific metrics or KPIs for the FAQ and release notes generation?
 3. Are there any specific formatting requirements for the generated FAQs and release notes?
 
 Feel free to provide additional information or ask further questions to help refine this proposal!
